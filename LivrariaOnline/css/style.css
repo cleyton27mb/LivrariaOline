@@ -1,0 +1,14 @@
+body{
+	background-color: yellow;
+}
+table{
+	background-color: white;
+	margin-right: 16px;
+}
+
+#logo{
+	position:relative;
+		left: 5px;
+		bottom: 20px;
+}
+
