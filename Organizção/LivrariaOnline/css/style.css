@@ -8,7 +8,16 @@ table{
 
 #logo{
 	position:relative;
-		left: 5px;
-		bottom: 20px;
+		right: 30px;
+		bottom: 30px;
 }
 
+#login{
+	 
+   background-color: white; 
+
+   
+}
+.jumbotron{
+	background-color: white; 
+}
