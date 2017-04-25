@@ -18,7 +18,7 @@
 		<nav class="navbar navbar-inverse navbar-static-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="Home.html">
                 <img alt="Hamurabi Livraria" id="logo"  src="images/hamurabi-livraria.png"/>
             </a>
 
@@ -28,12 +28,14 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Quem somos <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Contado</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="" class="glyphicon glyphicon-lock"></a></li>
+
+        <li><a href="Login.html" class="glyphicon glyphicon-lock"></a></li>
 </nav>
 
 <div class="jumbotron">
-<form class="form-horizontal">
+
+<h2 class="cadastro">Cadastre um novo produto</h2>
+<form>
 
     <div class="form-group">
         <label class="input-lg">Produto
@@ -78,8 +80,15 @@
 <textarea class="form-control input-lg"></textarea>
 </label>
 </div>
+<br />
+<br />
 
+<div class="form-group">
+    <label class="input-lg">Escolha uma imagem</label>
+    <input type="file" id="inputFile">
 
+<br />
+    <button type="submit" class="btn btn-info btn-lg">Salvar</button>
 </form>
 </div>
 

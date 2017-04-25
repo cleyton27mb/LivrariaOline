@@ -14,10 +14,18 @@ table{
 
 #login{
 	 
-   background-color: white; 
+   background-color: black; 
 
-   
 }
+#titulo{
+	color: #ffffff;
+}
+#campoUsuario{
+	color: #ffffff;
+}
+
 .jumbotron{
-	background-color: white; 
+	background-color: black; 
+	color: #ffffff;
 }
+
